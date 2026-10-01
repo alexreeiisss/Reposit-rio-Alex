@@ -2,34 +2,24 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de média</title>
     <link rel="stylesheet" href="style.css">
-    <title>Atividade galeria</title>
 </head>
+
 <body>
 
-    <h1> Galeria</h1>
+    <h1>Calcular média aluno</h1>
+    <p>Digite as notas do aluno</p>
 
-    <div class="galeria">
+    <div class="formulario">
+        <input type="number" id="nota1" min="0" max="10" placeholder="Primeira nota">
+        <input type="number" id="nota2" min="0" max="10" placeholder="Segunda nota">
 
-        <div class="card">
-            <h2>caixa 1</h2>
-        </div>
-
-        <div class="card">
-            <h2>caixa 2</h2>
-        </div>
-
-        <div class="card">
-            <h2>caixa 3</h2>
-        </div>
-
-        <div class="card">
-            <h2>caixa 4</h2>
-        </div>
+        <button onclick="calcularMedia()">Calcular média</button>
         
-
     </div>
-    
+
+    <script src="script.js"></script>
 </body>
 </html>
+
